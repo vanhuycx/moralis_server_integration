@@ -1,8 +1,8 @@
 import { React } from "react";
 import { useMoralis } from "react-moralis";
 
-
 const App = () => {
+    
     const {authenticate,isAuthenticated,user,logout} = useMoralis();
 
 
